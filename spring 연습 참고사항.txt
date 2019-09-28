@@ -1,0 +1,6 @@
+log.info("A1 : totalCount" + articleDao.getTotalCount());
+
+==>이런식으로 확인
+
+인터넷 페이지에서는 f12를 눌렀을 때 나타나는 상태화면에서 Network 부분에서 Preserve log 와 Disable cache 를 체크하고
+Console 부분에서 Preserve log 부분을 체크하면 각각의 상태 메세지가 밑부분에 계속 남아있게 되어 모르는부분 확인가능.
